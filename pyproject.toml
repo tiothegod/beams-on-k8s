@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "beams-on-k8s"
+version = "0.1.0"
+description = "Batch Data Processing with Apache Beam on Kubernetes"
+authors = ["tiothegod <dev.huyptit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "beams_on_k8s"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+apache-beam = "^2.48.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
